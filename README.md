@@ -1,4 +1,6 @@
-# 🐍 재미로 보는 관상 분석 프로그램 (Face-Reading App)이 프로젝트는 Python의 OpenCV와 Dlib 라이브러리를 활용하여 웹캠으로 촬영된 얼굴을 실시간으로 분석하고, 측정된 특징(코의 길이, 눈썹 길이, 입술 두께)을 바탕으로 재미있는 관상 해설을 제공하는 데모 프로그램입니다. 
+## 🐍 재미로 보는 관상 분석 프로그램 (Face-Reading App)
+
+이 프로젝트는 Python의 OpenCV와 Dlib 라이브러리를 활용하여 웹캠으로 촬영된 얼굴을 실시간으로 분석하고, 측정된 특징(코의 길이, 눈썹 길이, 입술 두께)을 바탕으로 재미있는 관상 해설을 제공하는 데모 프로그램입니다. 
 
 🎭✨ 주요 기능실시간 얼굴 인식: 웹캠을 통해 사용자의 얼굴을 감지합니다.
 
@@ -9,12 +11,12 @@ Dlib 랜드마크 분석: 얼굴의 주요 특징점(68개)을 추출하여 코,
  1. Conda 환경 설정안정적인 실행을 위해 Python 3.8 또는 3.9 환경을 사용합니다.Bash# 1. 새로운 Conda 환경 생성
 conda create -n face_env python=3.9 
 
-# 2. 환경 활성화
+## 2. 환경 활성화
  conda activate face_env 
 2. 필수 라이브러리 설치face_env 환경이 활성화된 상태에서, 다음 라이브러리를 설치합니다.Bash# OpenCV, Dlib, numpy, imutils 설치
  conda install -c conda-forge dlib opencv numpy imutils
 
-# 한글 출력을 위한 Pillow (PIL) 설치
+## 한글 출력을 위한 Pillow (PIL) 설치
 conda install pillow
 3. 필수 파일 준비프로젝트 폴더 (face_reading_project) 안에 다음 두 파일이 반드시 존재해야 합니다.파일명용도다운로드 링크shape_predictor_68_face_landmarks.datDlib의 얼굴 랜드마크 예측 모델Download Link (다운로드 후 압축 해제 필요)malgun.ttf (또는 다른 한글 폰트)결과 화면에 한글을 출력하기 위한 폰트Windows 사용자: C:\Windows\Fonts에서 복사🚀 프로그램 실행 방법VS Code 실행: 프로젝트 폴더에서 face_reading_app.py 파일을 엽니다.환경 확인: VS Code 터미널에서 **(face_env)**가 활성화되어 있는지 확인합니다.실행: 다음 명령어를 입력하여 프로그램을 실행합니다.Bashpython face_reading_app.py
 
