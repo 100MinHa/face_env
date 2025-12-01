@@ -19,7 +19,8 @@ Dlib 랜드마크 분석: 얼굴의 주요 특징점(68개)을 추출하여 코,
 
 ## 2. 환경 활성화
  - conda activate face_env
- - 필수 라이브러리 설치face_env 환경이 활성화된 상태에서, 다음 라이브러리를 설치합니다.Bash# OpenCV, Dlib, numpy, imutils 설치
+ - 필수 라이브러리 설치face_env 환경이 활성화된 상태에서, 다음 라이브러리를 설치합니다. 
+ - Bash# OpenCV, Dlib, numpy, imutils 설치
  conda install -c conda-forge dlib opencv numpy imutils
 
 ## 한글 출력을 위한 Pillow (PIL) 설치
