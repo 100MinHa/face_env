@@ -13,8 +13,9 @@ Dlib 랜드마크 분석: 얼굴의 주요 특징점(68개)을 추출하여 코,
 
 ** 💻 실행 환경 및 설치이 프로젝트는 Conda 환경에서 설치하는 것을 권장하며, 특정 폰트 파일이 필요합니다.**
  
- 1. Conda 환경 설정안정적인 실행을 위해 Python 3.8 또는 3.9 환경을 사용합니다.Bash# 1. 새로운 Conda 환경 생성
-conda create -n face_env python=3.9 
+ 1. Conda 환경 설정안정적인 실행을 위해 Python 3.8 또는 3.9 환경을 사용합니다.
+ - Bash# 1. 새로운 Conda 환경 생성
+ - conda create -n face_env python=3.9 
 
 ## 2. 환경 활성화
  - conda activate face_env
